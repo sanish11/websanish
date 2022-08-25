@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>links</title>
+	</head>
+	<body >
+	<h1>RICKROLL</h1>
+	<img src="abc.gif" vspace="4" align="center" height="600" width="600">
+	
+	
+	</body>
+	</html>

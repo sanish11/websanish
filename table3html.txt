@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<title>table3</title>
+	</head>
+	<body>
+	<table border="1" cellpadding="0" cellspacing="0" height="100" width="400">
+		<caption align="top">Student Result Sheet</caption>
+		<tr>
+		<th rowspan="2" align="middle" valign="top">ROLL</th>
+		<th rowspan="2" align="middle" valign="top">NAME</th>
+		<th rowspan="2" align="middle" valing="top">CO</th>
+		<th rowspan="2" align="middle" valign="top">JAVA</th>
+		<th align="middle">WEB=I</th>
+		</tr>
+		<th align="middle">THEORY</th>
+		<th align="middle">PRACTICAL</th>
+		</tr>
+		<tr>
+		<td>01</td>
+		<td>Ram</td>
+		<td>50</td>
+		<td>60</td>
+		<td>60</td>
+		<td>20</td>
+		</tr>
+		<tr>
+		<td>02</td>
+		<td>shyaam</td>
+		<td>60</td>
+		<td>50</td>
+		<td>40</td>
+		<td>20</td>
+		</tr>
+		<tr>
+		<td>03</td>
+		<td>hari</td>
+		<td>30</td>
+		<td>50</td>
+		<td>60</td>
+		<td>10</td>
+		</tr>
+</body>
+</html>

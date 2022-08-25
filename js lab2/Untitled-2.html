@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Question 4</title>
+	<script type="text/javascript">
+		function warn(){
+			alert("!!This is a example of alert dailogue box!!");
+			document.write("This is a example of alert dailogue box");
+		}
+		function getConfirmation(){
+			var sans=confirm("!!This is the example of Confirmation box!!");
+			if(sans==true){
+				document.write("User want to continue");
+				return true;
+			}
+			else
+			{
+				document.write("User does not want to continue");
+				return false;
+			}
+		}
+		
+		function getValue(){
+			var sans=prompt("Enter your name: ","Your name here");
+			document.write("You have entered : " +sans);
+		}
+	</script>
+</head>
+<body>
+	<p>CLick on the following button to see the result:</p>
+	<form>
+		<input type="button" value="Alert" onclick="warn()">
+		<input type="button" value="Confirmation" onclick="getConfirmation()"/>
+		<input type="button" value="Prompt" onclick="getValue()"/>
+	</form>
+</body>
+</html>

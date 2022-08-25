@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Patterns</title>
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=SEWulc73ZY_ArLY6Xy5ktgvsJF0rwsx1_dNBIuviepAAiDzL_oVqwRFvbrw53mSf2c7jCV4gRqWIHltjwCZ3l7hqCY1GBPDCaU3ycDH1V-niNiaO5Jsgfl19F1LakyEScKZtdO0dk9eX1IEfYfWHVcEFdmuDt-eJc7Qzztqjbb4E72mBuoB_Wcy7UKpasoxs9buhwurL-zhAyGhnuW3HSazbeqMQs32Azb8uuG9FKl9-FxPRQ90SixmpVS4_RJ1FohvY-Gt2QXJyNuVaCvfr0YWu9ck97aNXCm1hbPsb-6FCx7Dy-WXz1wmUg6MAJ_oNDWqMQjansUN-L1LrZLsvODS6Uj3WZpK8uvWMHRBAHxU" charset="UTF-8"></script></head>
+	<body>
+		<script type="text/javascript">
+				
+			//first pattern (asterisk pyramid)
+			for(var i = 0; i < 5; i++)
+			{
+				for(var j = i; j <= 3; j++)
+					document.write('&nbsp&nbsp&nbsp');
+				for(var k = 0; k < (i * 2) + 1; k++)
+					document.write("*" + ' ');
+				document.write("</br>");
+			}
+			document.write("</br>");
+
+			//second pattern (numerical pyramid)
+			for(var l = 0; l < 5; l++)
+			{
+				for(var m = l; m <= 3; m++)
+					document.write('&nbsp&nbsp&nbsp');
+				var o = 5 - l;
+				var count = (l * 2) + 1;
+				for(var n = 0; n < count; n++)
+				{
+					document.write(o + ' ');
+					if(n >= l)
+						o--;	
+					else
+						o++;
+				}					
+				document.write("</br>");
+			}
+			document.write("</br>");
+
+			//third pattern (right angled triangle)
+			for(var p = 0; p < 5; p++)
+			{
+				var r = p + 1;
+				for(var q = 0; q <= p; q++)
+				{
+					document.write(r + ' ');
+					r--;
+				}
+				document.write("</br>");
+			}
+		</script>		
+	</body>
+</html>

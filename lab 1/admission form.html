@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>admission form</title>
+    </head>
+    <body text="purple">
+      
+        <center><h1>NCCS College</h1><h3>Admission form</h3>
+            </center>
+            <hr size="5px" width="80%" color="purple">
+            <form method="post" name="form1">
+        <fieldset>
+            <legend align="letf">Personal information</legend>
+            Name:<input type="text" name="name"><br/>
+            Address:<input type="text" name="address"><br/>
+            Sex:<input type="radio" value="male" name="gender" checked="checked">male
+                <input type="radio" value="female" name="gender" >female<br/>
+            Name of father:<input type="text" name="name of father"><br/>
+            Name of mother:<input type="text" name="name of mother"><br/>
+            Date of birth:<input type="text"><br/>
+
+                </fieldset>
+                <fieldset>
+                    <legend align="letf">Education</legend>
+                    Subject matter:<select name="education">
+                            <option value="+2">+2</option>
+                            <option value="bachelors">BIM</option>
+                            <option value="bachelors">BCA</option>
+                            <option value="bachelors">BBm</option>
+                    </select>
+                    Marks Obtained in SLC:<input type="text" name="marks"><br/>
+                    Maks Obtained in +2:<input type="text" name="marks"><br/>
+
+                    </fieldset>
+                    
+                        <input type="submit" value="send">
+                        <input type="reset" value="clear">
+                    
+                    </form>
+
+            
+        </body>
+        </html>      

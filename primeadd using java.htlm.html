@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Display Prime Number</title>
+    <script type="text/javascript">
+        for(var i=2;i<100;i++){
+            var flag=0;
+                for(var j=2;j<i;j++){
+                    if(i%j==0){
+                      flag++;
+                    }
+                }
+                if(flag==0)
+                 document.write(i+"<br/>");
+
+        }
+    </script>
+</head>
+<body>
+    <p>This are the prime number from 1 to 100</p>
+</body>
+</html>
